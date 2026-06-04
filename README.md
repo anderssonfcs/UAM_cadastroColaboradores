@@ -36,14 +36,18 @@ O sistema permite registrar informações dos funcionários, como nome, matricul
 
 CADASTROCOLABORADORES
 src/
-├── ProgramaRH.java  (main)
-├── Funcionario.java
-├── Entrada.java
-└── Regras.java
+    ├── ProgramaRH.java  (main)
+
+    ├── Funcionario.java
+
+    ├── Entrada.java
+
+    └── Regras.java
+
 
 ## Clone o repositório:
 
-git clone https://github.com/anderssonfcs/UAM_cadastroColaboradores.git
+"git clone https://github.com/anderssonfcs/UAM_cadastroColaboradores.git"
 
 ## Aprendizados
 
