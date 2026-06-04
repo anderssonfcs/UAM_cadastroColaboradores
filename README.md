@@ -1,18 +1,55 @@
-## Getting Started
+# Sistema de Cadastro de Funcionários
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Projeto desenvolvido em Java com o objetivo de realizar o cadastro basico de funcionários por meio de uma interface em console.
 
-The workspace contains two folders by default, where:
+O sistema permite registrar informações dos funcionários, como nome, matricula, valor de vendas e produção, utilizando listas dinamicas (Arraylists) e após a conclusão do cadastro o sistema exibe um relatório com informações do funcionario, além do calculo final do salario já considerando o valor de comissão e bônus, utilizando conceitos fundamentais de programação orientada a objetos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Cadastro de funcionários
+- Listagem de funcionários cadastrados
+- Validação de entradas do usuário
+- Armazenamento dos dados em memória utilizando ArrayList
+- Menu interativo no console
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Tecnologias Utilizadas
 
-## Dependency Management
+- Java
+- VS Code
+- Git
+- GitHub
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Conceitos Aplicados
+
+- Programação Orientada a Objetos (POO)
+- Classes e Objetos
+- Encapsulamento
+- Métodos
+- Estruturas de Repetição
+- Estruturas Condicionais
+- Tratamento de Exceções
+- Collections (ArrayList)
+
+## Estrutura do Projeto
+
+CADASTROCOLABORADORES
+src/
+├── ProgramaRH.java  (main)
+├── Funcionario.java
+├── Entrada.java
+└── Regras.java
+
+## Clone o repositório:
+
+git clone https://github.com/anderssonfcs/UAM_cadastroColaboradores.git
+
+## Aprendizados
+
+Este projeto foi desenvolvido como prática dos conceitos fundamentais de Java, incluindo manipulação de objetos, validação de dados e organização de código em múltiplas classes.
+
+## Autor
+
+Andersson Fuchs dos Santos
+
